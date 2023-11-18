@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Header sin imagen/logo -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="content-style">
+  <h3 style="color: black;">¿Quién es usted?</h3>
+  <h3 style="color: black;">Para recordar su contraseña, ingrese los siguientes datos.</h3>
+
+  <form [formGroup]="formularioRecuperacion" class="form-style" style="color: black;">
+    <ion-item>
+      <ion-input type="email" placeholder="Ingrese su correo de Duoc" formControlName="correo" style="color: black;"></ion-input>
+    </ion-item> 
+    <ion-item>
+      <ion-input type="text" placeholder="Ingrese su Nombre" formControlName="nombre" style="color: black;"></ion-input>
+    </ion-item> 
+    <ion-item>
+      <ion-input type="text" placeholder="Ingrese su Apellido" formControlName="apellido" style="color: black;"></ion-input>
+    </ion-item> 
+  </form>
+
+  <div class="button-group">
+    <ion-button fill="clear" (click)="recordarEmail()">Recordar</ion-button> 
+    <ion-button fill="clear" (click)="cancelarRedireccion()">Volver al Registro de usuarios</ion-button>
+    <ion-button fill="clear" (click)="borrar()">Limpiar</ion-button>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <!-- Footer sin imagen/logo -->
+  </ion-toolbar>
+</ion-footer>

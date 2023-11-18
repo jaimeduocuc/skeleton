@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Header sin imagen/logo -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="content-style">
+  <ion-card class="card-style">
+    <ion-card-header>
+      <h3>Escanea tu asistencia</h3>
+      <h6>Id: {{ user?.idAlumno }} </h6>
+      <h3>Alumno/a {{ user?.nombre }} {{ user?.apellido }}</h3>
+      <h3>Curso: {{user?.nombreseccion}}</h3>
+      <h3>Seccion: {{user?.seccion}}</h3>
+      <h3>Codigo: {{user?.codseccion}}</h3>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Fecha: {{ fechaActual }}</p>
+      <p class="mb-6">Hora: {{ horaActual }}</p>
+
+      <ion-fab vertical="center" horizontal="center">
+        <ion-fab-button (click)="scan()">
+          <ion-icon name="scan"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </ion-card-content>
+
+    <div class="end">
+      <ion-button (click)="cerrarSesion()" fill="clear" class="btncerrar">Cerrar Sesión</ion-button>
+
+    </div>
+
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <!-- Footer sin imagen/logo -->
+  </ion-toolbar>
+</ion-footer>

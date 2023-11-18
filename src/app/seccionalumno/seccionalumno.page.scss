@@ -1,0 +1,55 @@
+.card-content {
+  box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.6);
+  color: black;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.obtener {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  background-color: #dddddd;
+  color: black;
+  margin: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.listasecciones {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 25px;
+}
+
+.center-button {
+  background-color: #333333; /* Dark Gray */
+  color: white;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+h3,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+ion-toolbar {
+  background-color: #cccccc; /* Light Gray */
+}
+
+ion-content {
+  --ion-background-color: #f0f0f0; /* Lighter Gray */
+}
+
+ion-footer ion-toolbar {
+  --background: #333333; /* Dark Gray */
+}
+
+/* Resto del CSS ... */
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}

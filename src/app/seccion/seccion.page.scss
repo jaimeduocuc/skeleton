@@ -1,0 +1,68 @@
+.content-style {
+  --ion-background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.card-style {
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: black;
+  background-color: white;
+}
+
+h3, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.obtener {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  background-color: #dddddd;
+  color: black;
+  margin: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.listasecciones {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 25px;
+}
+
+.center-button {
+  background-color: #333333; /* Dark Gray */
+  color: white;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+ion-toolbar {
+  background-color: #333; /* Fondo gris oscuro */
+}
+
+ion-footer ion-toolbar {
+  --background: #333; /* Fondo gris oscuro */
+}
+
+/* Resto del CSS ... */
+
+/* Responsive Design */
+@media (max-width: 450px) {
+  .card-style {
+    margin: 0 20px;
+  }
+
+  .obtener, .center-button {
+    font-size: medium;
+    margin: 5%;
+  }
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}

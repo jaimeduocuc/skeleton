@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Header sin imagen/logo -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-style">
+  <ion-card class="card-style">
+    <h1>Listado de asistencia de alumnos</h1>
+    <h3>Profesor/a {{usuario?.nombre}} {{usuario?.apellido}}</h3>
+    <h3>Curso: {{usuario?.nombreseccion}}</h3>
+    <h3>Seccion: {{usuario?.seccion}}</h3>
+    <h3>Codigo: {{usuario?.codseccion}}</h3>
+    <h6>Fecha: {{fechaActual}}, hora: {{horaActual}}</h6>
+  </ion-card>
+
+  <div class="end">
+    <ion-button (click)="cerrarSesion()" fill="clear" class="btncerrar">Cerrar Sesión</ion-button>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <!-- Footer sin imagen/logo -->
+  </ion-toolbar>
+</ion-footer>

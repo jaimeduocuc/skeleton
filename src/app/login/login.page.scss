@@ -1,0 +1,134 @@
+.background-image {
+  --background: no-repeat center/cover url("/assets/imgs/bgLogin.png");
+}
+
+ion-content {
+  --ion-background-color: transparent;
+  /* Hacer el fondo de ion-content transparente */
+}
+
+.logo {
+  width: 168px;
+  height: 36px;
+}
+
+.pl-2 {
+  padding-left: 8px;
+}
+
+.pl-3 {
+  padding-left: 12px;
+  color: black;
+  font-size: 20px;
+}
+
+.pl-6 {
+  padding-left: 24px;
+  color: black;
+  font-size: 20px;
+}
+
+.pl-4 {
+  padding-left: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Usar altura de viewport para centrado vertical */
+  width: 100vw;
+  /* Usar ancho de viewport para centrado horizontal */
+  position: block;
+  /* Posición absoluta para permitir el centrado */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  /* Centrado automático */
+  padding: 16px;
+}
+
+.login-card {
+  max-width: 440px;
+  max-height: 370px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+}
+
+.btn-re {
+  max-width: 148px;
+  font-size: 10px;
+  max-height: 32px;
+}
+
+.azul {
+  background-color: #0067b8;
+  border-radius: 0px;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.bg-gray {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Resto del CSS ... */
+
+/* Responsive Design */
+/* @media (max-width: 450px) {
+  .login-card {
+    margin: 0 20px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .password-reset-button {
+    margin-top: 8px;
+  }
+} */
+
+.myinput {
+  outline: none;
+  background-color: none !important;
+}
+
+ion-item {
+  input {
+    padding-left: 10px !important;
+    border-left: 1px solid #f4f4f4;
+    background-color: #fff;
+    outline: none;
+    border: none;
+  }
+
+  // change input placeholder to more small
+  input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.form {
+  padding: 1rem;
+}

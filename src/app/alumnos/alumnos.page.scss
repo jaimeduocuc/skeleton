@@ -1,0 +1,54 @@
+.content-style {
+  --ion-background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.card-style {
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: black;
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
+h3,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+ion-toolbar {
+  background-color: #333; /* Fondo gris oscuro */
+}
+
+.btncerrar {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: small;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+ion-footer ion-toolbar {
+  --background: #333; /* Fondo gris oscuro */
+}
+
+ion-fab-button {
+  --background: #333; /* Botón de escaneo gris oscuro */
+}
+
+/* Resto del CSS ... */
+
+/* Responsive Design */
+@media (max-width: 450px) {
+  /* Ajustes para pantallas pequeñas */
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}

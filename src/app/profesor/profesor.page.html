@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Header sin imagen/logo -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-style">
+  <ion-card class="card-style">
+    <h3>Profesor/a {{user?.nombre}} {{user?.apellido}}</h3>
+    <h3>Curso: {{user?.nombreseccion}}</h3>
+    <h3>Seccion: {{user?.seccion}}</h3>
+    <h3>Codigo: {{user?.codseccion}}</h3>
+
+    <ion-card-content>
+      <div class="center-button">
+        <ion-button (click)="generateDynamicQRCode()" fill="outline">
+          <img [src]="qrCodeImageUrl" *ngIf="qrCodeImageUrl" alt="Código QR">
+        </ion-button>
+      </div>
+      <h3>** Qr dinamico Click para generar nuevo codigo Qr</h3>
+      <h6>Fecha: {{fechaActual}}, hora: {{horaActual}}</h6>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="end">
+    <ion-button class="btnguardar" fill="clear" (click)="guardarAsistencia()">Guardar asistencia</ion-button>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <!-- Footer sin imagen/logo -->
+  </ion-toolbar>
+</ion-footer>

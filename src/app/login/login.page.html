@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true" class="background-image">
+  <div class="login-container">
+    <ion-card class="login-card">
+      <form [formGroup]="formulariologin" (ngSubmit)="ingresar()" class="form">
+        <ion-img class="logo pl-4 mb-2" src="assets/imgs/logoLogin.png"></ion-img>
+
+        <h2 class="pl-6" (click)="print()">Iniciar sesión</h2>
+
+        <ion-item>
+          <input type="email" formControlName="correo" placeholder="Correo" style="color: black;"/>
+        </ion-item>
+
+        <ion-item class="mb-6">
+          <input type="password" formControlName="password" placeholder="Contraseña" style="color: black;"/>
+        </ion-item>
+
+        <div class="button-container">
+          <ion-button fill="clear" class="password-reset-button btn-re bg-gray" (click)="RecordarPass()">Olvidé mi
+            contraseña</ion-button>
+          <ion-button fill="clear" class="login-button btn-re azul" type="submit"
+            [disabled]="!formulariologin.valid">Iniciar sesión</ion-button>
+        </div>
+      </form>
+
+    </ion-card>
+
+    <ion-card class="login-card">
+      <ion-button routerLink="/dosakdosak" fill="clear" class="btncerrar">Ir página que no existe</ion-button>
+
+    </ion-card>
+
+  </div>
+</ion-content>

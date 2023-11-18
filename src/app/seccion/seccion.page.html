@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- Header sin imagen/logo -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-style">
+  <ion-card class="card-style">
+    <ion-card-content>
+      <h3>Bienvenido</h3>
+      <h3>Profesor {{ user?.nombre }} {{ user?.apellido }}</h3>
+      <h6>Fecha: {{fechaActual}}, hora: {{horaActual}}</h6>
+    </ion-card-content>
+  
+    <button (click)="getSeccionesByProfesorId()" class="obtener">1.- Click aquí para obtener secciones</button>
+  
+    <ion-list class="listasecciones">
+      <ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12">
+              <ion-item>
+                <ion-select label="2.- Seleccione aquí" style="color: black;" label-placement="floating" [interfaceOptions]="customAlertOptions" interface="alert" placeholder="Obligatorio" [(ngModel)]="selectedSeccion" (ionChange)="seccionSeleccionada($event)">
+                  <ion-select-option *ngFor="let seccion of professorSections" [value]="seccion.NOMBRE_SECCION">{{seccion.NOMBRE_SECCION}}</ion-select-option>
+                </ion-select>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-list>
+    <div class="end">
+      <ion-button (click)="continuar()" fill="clear" class="center-button">Continuar</ion-button>
+    </div>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <!-- Footer sin imagen/logo -->
+  </ion-toolbar>
+</ion-footer>
