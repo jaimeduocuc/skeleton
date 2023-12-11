@@ -43,7 +43,7 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 <img src="./icons/image-cero.jpeg" width="320"> 
 <img src="./icons/image-uno.jpeg" width="320"> 
 <img src="./icons/image-dos.jpeg" width="320"> 
-<img src="./icons/image-tres.jpeg" width="320"> 
+<img src="./icons/image-cuatro.jpeg" width="320"> 
 
 ## APK
 
