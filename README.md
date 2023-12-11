@@ -35,13 +35,6 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 | ---------------------------------------------- | --------------------------------------------- | 
 | <img src="./icons/Git.svg" width="48"> | <img src="./icons/Github-Light.svg" width="48"> | 
 
-
-
-
-![Ionic Angular](url_de_la_imagen_ionic_angular)
-![Android](url_de_la_imagen_android)
-![iOS](url_de_la_imagen_ios)
-
 ## Funcionalidades del Proyecto
 - **Ingreso de Usuario**: Los alumnos y profesores ingresan al sistema utilizando sus credenciales.
 - **Generación de Código QR**: El docente genera un código QR para que sus alumnos puedan scanearlo y queden presente en esa materia.
