@@ -40,7 +40,10 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 - **Escaneo de Código QR**: Los alumnos utilizan la cámara de sus dispositivos para escanear el código y registrar su asistencia.
 - **Envío de Registro de Asistencia**: El registro de asistencia.
 
-<img src="./icons/image-cero.jpeg" width="120"> 
+<img src="./icons/image-cero.jpeg" width="320"> 
+<img src="./icons/image-uno.jpeg" width="320"> 
+<img src="./icons/image-dos.jpeg" width="320"> 
+<img src="./icons/image-tres.jpeg" width="320"> 
 
 ## APK
 
