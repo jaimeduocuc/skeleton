@@ -10,13 +10,13 @@
 
 
 ## Descripción del Proyecto
-RegistrAPP es una solución innovadora diseñada para facilitar el registro de asistencia de los alumnos en las aula.
+RegistrAPP es una solución innovadora diseñada para facilitar el registro de asistencia de los alumnos en las aulas, especialmente en el contexto de la pandemia. Esta aplicación móvil permite a los alumnos registrar su propia asistencia escaneando un código QR generado por el docente, minimizando errores y optimizando el tiempo dedicado a este proceso.
 
 ## Integrantes del Grupo
 - Jaime Lopez
 
 ## Tecnologías y Frameworks Utilizados
-Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las plataformas Android e iOS. Se han implementado pruebas unitarias para asegurar la calidad del software.
+Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las plataformas Android.
 
 | Angular                                         | Ionic                                    | AndroidStudio                                    |
 | ---------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
