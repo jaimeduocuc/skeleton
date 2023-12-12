@@ -36,14 +36,19 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 
 ## Funcionalidades del Proyecto
 - **Ingreso de Usuario**: Los alumnos y profesores ingresan al sistema utilizando sus credenciales.
-- **Generación de Código QR**: El docente genera un código QR para que sus alumnos puedan scanearlo y queden presente en esa materia.
-- **Escaneo de Código QR**: Los alumnos utilizan la cámara de sus dispositivos para escanear el código y registrar su asistencia.
-- **Envío de Registro de Asistencia**: El registro de asistencia.
+<img src="./icons/image-cero.jpeg" width="320">
 
-<img src="./icons/image-cero.jpeg" width="320"> 
-<img src="./icons/image-uno.jpeg" width="320"> 
+- **Recuperar contraseña**: Los alumnos y profesores pueden recuperar su contraseña utilizando sus credenciales.
 <img src="./icons/image-dos.jpeg" width="320"> 
+
+- **Página de NOT FOUND PAGe**: Cuando el usuario ingresa a una url que no existe.
+<img src="./icons/image-uno.jpeg" width="320"> 
+  
+- **Generación de Código QR**: El docente genera un código QR para que sus alumnos puedan scanearlo y queden presente en esa materia.
 <img src="./icons/image-cuatro.jpeg" width="320"> 
+  
+- **Escaneo de Código QR**: Los alumnos utilizan la cámara de sus dispositivos para escanear el código y registrar su asistencia.
+<img src="./icons/image-cinco.jpeg" width="320"> 
 
 ## APK
 
