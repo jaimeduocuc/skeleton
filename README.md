@@ -47,7 +47,7 @@ Este proyecto se desarrolla utilizando Ionic Angular, adecuándose a las platafo
 
 ## APK
 
-[Directiorio APK](https://github.com/jaimeduocuc/skeleton)
+[Directiorio APK](https://github.com/jaimeduocuc/skeleton/blob/main/app-debug.apk)
 
 ## Enlaces de Repositorios
 
